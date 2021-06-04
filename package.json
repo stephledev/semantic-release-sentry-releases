@@ -7,7 +7,6 @@
     "lint": "prettier-standard --lint '{src,test}/**/*.js'",
     "ts-compile-check": "tsc -p tsconfig.json --noEmit",
     "test": "nyc mocha test",
-    "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
